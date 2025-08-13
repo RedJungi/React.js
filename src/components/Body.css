@@ -1,7 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 .body {
   background: #111;
@@ -17,12 +17,11 @@ html {
 
 #terminal {
   height: 90vh;
-  width: 100vw;
-  border: 1px solid #0f0;
+  width: 90vw;
+  margin: auto;
+  border: 2px solid #0f0;
   background: #000;
   overflow-y: auto; /*세로 스크롤 생성*/
   padding: 10px;
   white-space: pre-wrap; /*줄바꿈 공백 유지 및 텍스트 줄바꿈*/
-
 }
-

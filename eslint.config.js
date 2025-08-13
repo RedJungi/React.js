@@ -23,8 +23,7 @@ export default defineConfig([
       },
     },
     rules: {
-      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
-      //"no-unused-vars": "off",
+      "no-unused-vars": "off", //["error", { varsIgnorePattern: "^[A-Z_]" }],
       "react/prop-types": "off",
     },
   },

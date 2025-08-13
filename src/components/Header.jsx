@@ -1,8 +1,7 @@
-
 const Header = () => {
   return (
     <header>
-      <h1>SSH Terminal</h1>
+      <h1></h1>
     </header>
   );
 };

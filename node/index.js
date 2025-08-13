@@ -6,12 +6,13 @@ const path = require("path"); // 경로 모듈
 const app = express();
 const server = http.createServer(app);
 const io = SocketIO(server);
+const fs = require("fs");
 
 const linux = {
   host: "192.168.105.131",
   port: 22,
   username: "hjg",
-  password: "1234",
+  privateKey: fs.readFileSync("/Users/hongjungi/.ssh/myserver_key"),
 };
 // Express메서드로 "/" 경로로 접속한 클라이언트에게 파일을 직접 서빙
 app.get("/", (req, res) => {
